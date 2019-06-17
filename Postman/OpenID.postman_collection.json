@@ -1,0 +1,371 @@
+{
+	"info": {
+		"_postman_id": "762bf816-9b3d-46f4-add6-8aa2473aa630",
+		"name": "OpenID",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ClientCredentials",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "scope",
+							"value": "api1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "client",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/connect/token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"connect",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ResourceOwnerPassword",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "scope",
+							"value": "offline_access openid profile api1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "ro.client",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "secret",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "alice",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Pass123$",
+							"type": "text"
+						},
+						{
+							"key": "AllowOfflineAccess",
+							"value": "true",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/connect/token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"connect",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RefreshToken",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "refresh_token",
+							"value": "09099f1787f81a225d4df151a9912b913f2050948a61829530edd654bea22a08",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "refresh_token",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "ro.client",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "secret",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "alice",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "Pass123$",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "AllowOfflineAccess",
+							"value": "true",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/connect/token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"connect",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Revocation",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjkzMjFhZTI1ZWMxODNkMmMyMDQ3YzBhNjc0NDcyNDRhIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NTk1NDY2MjgsImV4cCI6MTU1OTU1MDIyOCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwL3Jlc291cmNlcyIsImNsaWVudF9pZCI6InJvLmNsaWVudCIsInN1YiI6ImU1Yjk5YTQ0LWFhNGQtNGNiOC04NTllLWZkYzg5NmQ5ZGY2YiIsImF1dGhfdGltZSI6MTU1OTU0NjYyOCwiaWRwIjoibG9jYWwiLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwib2ZmbGluZV9hY2Nlc3MiXSwiYW1yIjpbInB3ZCJdfQ.fk2zf7-Lh1Swbt_QK-OZFIIMCn5WXKchp4Lc3ei2OwaJ0IL4k29Z2wwyvhUoRIOaIUbhuIpUFS370n-juSwQSSHQajKtqMXfiZ7r80dC_IYqZEwkp97ugK2XpLxfHIYBdU5LVRpTQ8mYSwZup1rlKP-tY67OWvRyUlLa-LR2WcswH3EW7SjWo7E3kMe-RujcJPGTBglYyYsDZeZXG4E2j_Tm8ffFafWqgxU8NYwzU4xcFbmE-Rv6x-zbDKkNveL9Blh5SV9-aAIqRdJNa22kvHQRLi0IQa8zR9oZ0wxpAy011XSkhln8aGPzm3MB3mNZOnY_JnRpBiraa5ZPmDeRkg",
+							"type": "text"
+						},
+						{
+							"key": "token_type_hint",
+							"value": "access_token",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "ro.client",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "secret",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "alice",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "Pass123$",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "AllowOfflineAccess",
+							"value": "true",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/connect/revocation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"connect",
+						"revocation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UserInfo",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjkzMjFhZTI1ZWMxODNkMmMyMDQ3YzBhNjc0NDcyNDRhIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NTk1NDY2MjgsImV4cCI6MTU1OTU1MDIyOCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwL3Jlc291cmNlcyIsImNsaWVudF9pZCI6InJvLmNsaWVudCIsInN1YiI6ImU1Yjk5YTQ0LWFhNGQtNGNiOC04NTllLWZkYzg5NmQ5ZGY2YiIsImF1dGhfdGltZSI6MTU1OTU0NjYyOCwiaWRwIjoibG9jYWwiLCJzY29wZSI6WyJvcGVuaWQiLCJwcm9maWxlIiwib2ZmbGluZV9hY2Nlc3MiXSwiYW1yIjpbInB3ZCJdfQ.fk2zf7-Lh1Swbt_QK-OZFIIMCn5WXKchp4Lc3ei2OwaJ0IL4k29Z2wwyvhUoRIOaIUbhuIpUFS370n-juSwQSSHQajKtqMXfiZ7r80dC_IYqZEwkp97ugK2XpLxfHIYBdU5LVRpTQ8mYSwZup1rlKP-tY67OWvRyUlLa-LR2WcswH3EW7SjWo7E3kMe-RujcJPGTBglYyYsDZeZXG4E2j_Tm8ffFafWqgxU8NYwzU4xcFbmE-Rv6x-zbDKkNveL9Blh5SV9-aAIqRdJNa22kvHQRLi0IQa8zR9oZ0wxpAy011XSkhln8aGPzm3MB3mNZOnY_JnRpBiraa5ZPmDeRkg",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/connect/userinfo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"connect",
+						"userinfo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Introspection",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer aeeff18f0af4b2822e9095ae89a68f746c56a80b3823e9e7360b7b3675ee0db6",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "token",
+							"value": "e66e5db4304c947c359e4f5f5fa2a3541e883284ba5fbe88a1c47380f276da9e",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "access_token",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "api1",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "secretapi",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "alice",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "Pass123$",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "AllowOfflineAccess",
+							"value": "true",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/connect/introspect",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"connect",
+						"introspect"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

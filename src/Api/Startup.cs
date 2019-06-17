@@ -26,7 +26,7 @@ namespace Api
                     options.ApiName = "api1";
                     options.ApiSecret = "secretapi";
                     options.RequireHttpsMetadata = false;
-                    options.RoleClaimType = ClaimTypes.Role;
+                    //options.RoleClaimType = ClaimTypes.Role;
                 });
 
             services.AddCors(options =>
