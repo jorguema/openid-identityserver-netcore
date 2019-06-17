@@ -16,6 +16,7 @@ namespace IdentityServerAspNetIdentity
             {
                 new IdentityResources.OpenId(),
                 new IdentityResources.Profile(),
+                new IdentityResource("roles", new List<string>{"role"})
             };
         }
 
@@ -83,7 +84,7 @@ namespace IdentityServerAspNetIdentity
                         IdentityServerConstants.StandardScopes.Profile,
                         IdentityServerConstants.StandardScopes.OfflineAccess,
                         "api1",
-                        "role"
+                        "roles"
                     },
                     RefreshTokenExpiration = TokenExpiration.Sliding,
                     AllowOfflineAccess = true,

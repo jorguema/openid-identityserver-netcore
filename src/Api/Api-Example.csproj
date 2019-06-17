@@ -9,4 +9,10 @@
     <PackageReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="IdentityServer4.Storage">
+      <HintPath>..\..\..\..\..\..\..\.nuget\packages\identityserver4.storage\2.5.0-preview.2.6\lib\netstandard2.0\IdentityServer4.Storage.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

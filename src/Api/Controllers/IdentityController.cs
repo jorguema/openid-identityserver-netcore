@@ -11,7 +11,14 @@ namespace Api.Controllers
     [Authorize]
     public class IdentityController : ControllerBase
     {
+        [Authorize(Roles = "admin")]
         public IActionResult Get()
+        {
+            return new JsonResult(from c in User.Claims select new { c.Type, c.Value });
+        }
+
+        [Route("test")]
+        public IActionResult Get2()
         {
             return new JsonResult(from c in User.Claims select new { c.Type, c.Value });
         }

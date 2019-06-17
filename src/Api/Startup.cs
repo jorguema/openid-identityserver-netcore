@@ -3,7 +3,9 @@
 
 using System.Security.Claims;
 using IdentityServer4.AccessTokenValidation;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Api
@@ -12,7 +14,12 @@ namespace Api
     {
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvcCore()
+            services.AddMvcCore(options =>
+                {
+                    // required scopes
+                    var policy = ScopePolicy.Create("api1");
+                    options.Filters.Add(new AuthorizeFilter(policy));
+                })
                 .AddAuthorization()
                 .AddJsonFormatters();
 
@@ -26,7 +33,6 @@ namespace Api
                     options.ApiName = "api1";
                     options.ApiSecret = "secretapi";
                     options.RequireHttpsMetadata = false;
-                    //options.RoleClaimType = ClaimTypes.Role;
                 });
 
             services.AddCors(options =>
