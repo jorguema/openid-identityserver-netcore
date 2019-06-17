@@ -74,7 +74,7 @@
 					"urlencoded": [
 						{
 							"key": "scope",
-							"value": "offline_access openid profile api1",
+							"value": "offline_access openid profile api1 roles",
 							"type": "text"
 						},
 						{

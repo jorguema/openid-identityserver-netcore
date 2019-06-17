@@ -11431,3 +11431,248 @@ System.InvalidOperationException: Timeout expired.  The timeout period elapsed p
 2019-06-17 17:13:22.499 +02:00 [DBG] Creating introspection response for active token.
 2019-06-17 17:13:22.499 +02:00 [INF] {"ApiName":"api1","IsActive":true,"Token":"****f29c","ClaimTypes":["iss","nbf","exp","aud","client_id","scope","sub","auth_time","idp","amr"],"TokenScopes":["openid","profile","roles","api1","offline_access"],"Category":"Token","Name":"Token Introspection Success","EventType":"Success","Id":2020,"Message":null,"ActivityId":"0HLNJ6OTOL6EQ:00000005","TimeStamp":"2019-06-17T15:13:22.0000000Z","ProcessId":36708,"LocalIpAddress":"127.0.0.1:34846","RemoteIpAddress":"::1","$type":"TokenIntrospectionSuccessEvent"}
 2019-06-17 17:13:22.499 +02:00 [INF] Success token introspection. Token active: true, for API name: api1
+2019-06-17 17:30:11.817 +02:00 [INF] Starting IdentityServer4 version 2.5.0.0
+2019-06-17 17:30:11.938 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-06-17 17:30:11.938 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-06-17 17:30:11.938 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-06-17 17:30:11.938 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-06-17 17:30:11.938 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-06-17 17:30:11.938 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-06-17 17:30:12.060 +02:00 [DBG] Starting grant removal
+2019-06-17 17:30:12.364 +02:00 [DBG] Login Url: /Account/Login
+2019-06-17 17:30:12.365 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-06-17 17:30:12.365 +02:00 [DBG] Logout Url: /Account/Logout
+2019-06-17 17:30:12.365 +02:00 [DBG] ConsentUrl Url: /consent
+2019-06-17 17:30:12.365 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-06-17 17:30:12.365 +02:00 [DBG] Error Url: /home/error
+2019-06-17 17:30:12.365 +02:00 [DBG] Error Id Parameter: errorId
+2019-06-17 17:31:34.893 +02:00 [INF] Starting IdentityServer4 version 2.5.0.0
+2019-06-17 17:31:35.023 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-06-17 17:31:35.024 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-06-17 17:31:35.024 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-06-17 17:31:35.024 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-06-17 17:31:35.024 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-06-17 17:31:35.024 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-06-17 17:31:35.152 +02:00 [DBG] Starting grant removal
+2019-06-17 17:31:35.480 +02:00 [DBG] Login Url: /Account/Login
+2019-06-17 17:31:35.482 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-06-17 17:31:35.482 +02:00 [DBG] Logout Url: /Account/Logout
+2019-06-17 17:31:35.482 +02:00 [DBG] ConsentUrl Url: /consent
+2019-06-17 17:31:35.482 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-06-17 17:31:35.482 +02:00 [DBG] Error Url: /home/error
+2019-06-17 17:31:35.482 +02:00 [DBG] Error Id Parameter: errorId
+2019-06-17 17:32:12.950 +02:00 [INF] Starting IdentityServer4 version 2.5.0.0
+2019-06-17 17:32:12.986 +02:00 [INF] Using the default authentication scheme Identity.Application for IdentityServer
+2019-06-17 17:32:12.986 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for authentication
+2019-06-17 17:32:12.986 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-in
+2019-06-17 17:32:12.986 +02:00 [DBG] Using Identity.External as default ASP.NET Core scheme for sign-out
+2019-06-17 17:32:12.986 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for challenge
+2019-06-17 17:32:12.987 +02:00 [DBG] Using Identity.Application as default ASP.NET Core scheme for forbid
+2019-06-17 17:32:13.083 +02:00 [DBG] Starting grant removal
+2019-06-17 17:32:13.305 +02:00 [DBG] Login Url: /Account/Login
+2019-06-17 17:32:13.306 +02:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-06-17 17:32:13.306 +02:00 [DBG] Logout Url: /Account/Logout
+2019-06-17 17:32:13.306 +02:00 [DBG] ConsentUrl Url: /consent
+2019-06-17 17:32:13.306 +02:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-06-17 17:32:13.306 +02:00 [DBG] Error Url: /home/error
+2019-06-17 17:32:13.306 +02:00 [DBG] Error Id Parameter: errorId
+2019-06-17 17:32:21.439 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-06-17 17:32:21.453 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-06-17 17:32:21.453 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-06-17 17:32:21.459 +02:00 [DBG] Start token request.
+2019-06-17 17:32:21.464 +02:00 [DBG] Start client validation
+2019-06-17 17:32:21.468 +02:00 [DBG] Start parsing Basic Authentication secret
+2019-06-17 17:32:21.471 +02:00 [DBG] Start parsing for secret in post body
+2019-06-17 17:32:21.482 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2019-06-17 17:32:21.483 +02:00 [DBG] Secret id found: ro.client
+2019-06-17 17:32:21.658 +02:00 [DBG] ro.client found in database: true
+2019-06-17 17:32:21.667 +02:00 [DBG] client configuration validation for client ro.client succeeded.
+2019-06-17 17:32:21.674 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-06-17 17:32:21.674 +02:00 [DBG] Client validation success
+2019-06-17 17:32:21.690 +02:00 [INF] {"ClientId":"ro.client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLNJ73S7DHS7:00000002","TimeStamp":"2019-06-17T15:32:21.0000000Z","ProcessId":33912,"LocalIpAddress":"127.0.0.1:10348","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-06-17 17:32:21.700 +02:00 [DBG] Start token request validation
+2019-06-17 17:32:21.710 +02:00 [DBG] Start resource owner password token request validation
+2019-06-17 17:32:21.775 +02:00 [DBG] Found ["openid","profile","roles"] identity scopes in database
+2019-06-17 17:32:21.942 +02:00 [DBG] Found ["api1","api1.write","api1.read"] API scopes in database
+2019-06-17 17:32:21.955 +02:00 [DBG] Found ["openid","profile","roles"] identity scopes in database
+2019-06-17 17:32:21.957 +02:00 [DBG] Found ["api1","api1.write","api1.read"] API scopes in database
+2019-06-17 17:32:21.992 +02:00 [INF] Credentials validated for username: bob
+2019-06-17 17:32:21.993 +02:00 [INF] {"Username":"bob","Provider":null,"ProviderUserId":null,"SubjectId":"d71d9a60-752e-474a-8b70-e4485cc8bca6","DisplayName":"bob","Endpoint":"Token","ClientId":null,"Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLNJ73S7DHS7:00000002","TimeStamp":"2019-06-17T15:32:21.0000000Z","ProcessId":33912,"LocalIpAddress":"127.0.0.1:10348","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2019-06-17 17:32:22.000 +02:00 [INF] {"Username":"bob","Provider":null,"ProviderUserId":null,"SubjectId":"d71d9a60-752e-474a-8b70-e4485cc8bca6","DisplayName":null,"Endpoint":"Token","ClientId":"ro.client","Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLNJ73S7DHS7:00000002","TimeStamp":"2019-06-17T15:32:22.0000000Z","ProcessId":33912,"LocalIpAddress":"127.0.0.1:10348","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2019-06-17 17:32:22.000 +02:00 [DBG] Resource owner password token request validation success.
+2019-06-17 17:32:22.007 +02:00 [INF] Token request validation success, {"ClientId":"ro.client","ClientName":null,"GrantType":"password","Scopes":"api1 offline_access openid profile roles","AuthorizationCode":null,"RefreshToken":null,"UserName":"bob","AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"scope":"offline_access openid profile api1 roles","grant_type":"password","client_id":"ro.client","client_secret":"***REDACTED***","username":"bob","password":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-06-17 17:32:22.026 +02:00 [DBG] Getting claims for access token for client: ro.client
+2019-06-17 17:32:22.026 +02:00 [DBG] Getting claims for access token for subject: d71d9a60-752e-474a-8b70-e4485cc8bca6
+2019-06-17 17:32:22.131 +02:00 [DBG] c9aBF5QaDNq3x26NTECn0BMU7ajZtNjPt8+jFPwEtzM= not found in database
+2019-06-17 17:32:22.148 +02:00 [DBG] Creating refresh token
+2019-06-17 17:32:22.148 +02:00 [DBG] Setting a sliding lifetime: 1296000
+2019-06-17 17:32:22.153 +02:00 [DBG] YODyLsOiRkCUWRLUdadpNfZW3Oteymlq3bN5E3IKLjg= not found in database
+2019-06-17 17:32:22.159 +02:00 [INF] {"ClientId":"ro.client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":"d71d9a60-752e-474a-8b70-e4485cc8bca6","Scopes":"openid profile roles api1 offline_access","GrantType":"password","Tokens":[{"TokenType":"refresh_token","TokenValue":"****9266","$type":"Token"},{"TokenType":"access_token","TokenValue":"****23c1","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLNJ73S7DHS7:00000002","TimeStamp":"2019-06-17T15:32:22.0000000Z","ProcessId":33912,"LocalIpAddress":"127.0.0.1:10348","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-06-17 17:32:22.160 +02:00 [DBG] Token request success.
+2019-06-17 17:32:28.522 +02:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-06-17 17:32:28.524 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-06-17 17:32:28.524 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-06-17 17:32:28.528 +02:00 [DBG] Start discovery request
+2019-06-17 17:32:28.593 +02:00 [DBG] Found ["openid","profile","roles","api1","api1.write","api1.read"] as all scopes in database
+2019-06-17 17:32:28.627 +02:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-06-17 17:32:28.628 +02:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-06-17 17:32:28.628 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-06-17 17:32:28.630 +02:00 [DBG] Start key discovery request
+2019-06-17 17:32:28.730 +02:00 [DBG] Request path /connect/introspect matched to endpoint type Introspection
+2019-06-17 17:32:28.732 +02:00 [DBG] Endpoint enabled: Introspection, successfully created handler: IdentityServer4.Endpoints.IntrospectionEndpoint
+2019-06-17 17:32:28.732 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.IntrospectionEndpoint for /connect/introspect
+2019-06-17 17:32:28.738 +02:00 [DBG] Starting introspection request.
+2019-06-17 17:32:28.743 +02:00 [DBG] Start parsing Basic Authentication secret
+2019-06-17 17:32:28.743 +02:00 [DBG] Start parsing for secret in post body
+2019-06-17 17:32:28.744 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2019-06-17 17:32:28.744 +02:00 [DBG] Secret id found: api1
+2019-06-17 17:32:28.784 +02:00 [DBG] Found api1 API resource in database
+2019-06-17 17:32:28.784 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-06-17 17:32:28.784 +02:00 [DBG] API resource validation success
+2019-06-17 17:32:28.784 +02:00 [INF] {"ApiName":"api1","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"API Authentication Success","EventType":"Success","Id":1020,"Message":null,"ActivityId":"0HLNJ73S7DHS6:00000003","TimeStamp":"2019-06-17T15:32:28.0000000Z","ProcessId":33912,"LocalIpAddress":"127.0.0.1:10348","RemoteIpAddress":"::1","$type":"ApiAuthenticationSuccessEvent"}
+2019-06-17 17:32:28.788 +02:00 [DBG] Introspection request validation started.
+2019-06-17 17:32:28.808 +02:00 [DBG] c9aBF5QaDNq3x26NTECn0BMU7ajZtNjPt8+jFPwEtzM= found in database: true
+2019-06-17 17:32:28.817 +02:00 [DBG] ro.client found in database: true
+2019-06-17 17:32:28.817 +02:00 [DBG] client configuration validation for client ro.client succeeded.
+2019-06-17 17:32:28.824 +02:00 [DBG] ro.client found in database: true
+2019-06-17 17:32:28.824 +02:00 [DBG] client configuration validation for client ro.client succeeded.
+2019-06-17 17:32:28.839 +02:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2019-06-17 17:32:28.841 +02:00 [DBG] Token validation success
+{"ClientId":null,"ClientName":null,"ValidateLifetime":true,"AccessTokenType":"Reference","ExpectedScope":null,"TokenHandle":"d9e4851228f8cc7e5f26f428da75ab7ca54bb2621cb987756dfaa7bd99a223c1","JwtId":null,"Claims":{"iss":"http://localhost:5000","nbf":1560785542,"exp":1560789142,"aud":["http://localhost:5000/resources","api1"],"client_id":"ro.client","scope":["openid","profile","roles","api1","offline_access"],"sub":"d71d9a60-752e-474a-8b70-e4485cc8bca6","auth_time":1560785541,"idp":"local","amr":"pwd"},"$type":"TokenValidationLog"}
+2019-06-17 17:32:28.843 +02:00 [DBG] Introspection request validation successful.
+2019-06-17 17:32:28.852 +02:00 [DBG] Creating introspection response for active token.
+2019-06-17 17:32:28.855 +02:00 [INF] {"ApiName":"api1","IsActive":true,"Token":"****23c1","ClaimTypes":["iss","nbf","exp","aud","client_id","scope","sub","auth_time","idp","amr"],"TokenScopes":["openid","profile","roles","api1","offline_access"],"Category":"Token","Name":"Token Introspection Success","EventType":"Success","Id":2020,"Message":null,"ActivityId":"0HLNJ73S7DHS6:00000003","TimeStamp":"2019-06-17T15:32:28.0000000Z","ProcessId":33912,"LocalIpAddress":"127.0.0.1:10348","RemoteIpAddress":"::1","$type":"TokenIntrospectionSuccessEvent"}
+2019-06-17 17:32:28.855 +02:00 [INF] Success token introspection. Token active: true, for API name: api1
+2019-06-17 17:32:35.466 +02:00 [DBG] Request path /connect/introspect matched to endpoint type Introspection
+2019-06-17 17:32:35.466 +02:00 [DBG] Endpoint enabled: Introspection, successfully created handler: IdentityServer4.Endpoints.IntrospectionEndpoint
+2019-06-17 17:32:35.466 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.IntrospectionEndpoint for /connect/introspect
+2019-06-17 17:32:35.466 +02:00 [DBG] Starting introspection request.
+2019-06-17 17:32:35.467 +02:00 [DBG] Start parsing Basic Authentication secret
+2019-06-17 17:32:35.467 +02:00 [DBG] Start parsing for secret in post body
+2019-06-17 17:32:35.467 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2019-06-17 17:32:35.467 +02:00 [DBG] Secret id found: api1
+2019-06-17 17:32:35.470 +02:00 [DBG] Found api1 API resource in database
+2019-06-17 17:32:35.470 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-06-17 17:32:35.470 +02:00 [DBG] API resource validation success
+2019-06-17 17:32:35.470 +02:00 [INF] {"ApiName":"api1","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"API Authentication Success","EventType":"Success","Id":1020,"Message":null,"ActivityId":"0HLNJ73S7DHS7:00000004","TimeStamp":"2019-06-17T15:32:35.0000000Z","ProcessId":33912,"LocalIpAddress":"127.0.0.1:10348","RemoteIpAddress":"::1","$type":"ApiAuthenticationSuccessEvent"}
+2019-06-17 17:32:35.470 +02:00 [DBG] Introspection request validation started.
+2019-06-17 17:32:35.471 +02:00 [DBG] c9aBF5QaDNq3x26NTECn0BMU7ajZtNjPt8+jFPwEtzM= found in database: true
+2019-06-17 17:32:35.475 +02:00 [DBG] ro.client found in database: true
+2019-06-17 17:32:35.475 +02:00 [DBG] client configuration validation for client ro.client succeeded.
+2019-06-17 17:32:35.479 +02:00 [DBG] ro.client found in database: true
+2019-06-17 17:32:35.479 +02:00 [DBG] client configuration validation for client ro.client succeeded.
+2019-06-17 17:32:35.482 +02:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2019-06-17 17:32:35.482 +02:00 [DBG] Token validation success
+{"ClientId":null,"ClientName":null,"ValidateLifetime":true,"AccessTokenType":"Reference","ExpectedScope":null,"TokenHandle":"d9e4851228f8cc7e5f26f428da75ab7ca54bb2621cb987756dfaa7bd99a223c1","JwtId":null,"Claims":{"iss":"http://localhost:5000","nbf":1560785542,"exp":1560789142,"aud":["http://localhost:5000/resources","api1"],"client_id":"ro.client","scope":["openid","profile","roles","api1","offline_access"],"sub":"d71d9a60-752e-474a-8b70-e4485cc8bca6","auth_time":1560785541,"idp":"local","amr":"pwd"},"$type":"TokenValidationLog"}
+2019-06-17 17:32:35.483 +02:00 [DBG] Introspection request validation successful.
+2019-06-17 17:32:35.483 +02:00 [DBG] Creating introspection response for active token.
+2019-06-17 17:32:35.483 +02:00 [INF] {"ApiName":"api1","IsActive":true,"Token":"****23c1","ClaimTypes":["iss","nbf","exp","aud","client_id","scope","sub","auth_time","idp","amr"],"TokenScopes":["openid","profile","roles","api1","offline_access"],"Category":"Token","Name":"Token Introspection Success","EventType":"Success","Id":2020,"Message":null,"ActivityId":"0HLNJ73S7DHS7:00000004","TimeStamp":"2019-06-17T15:32:35.0000000Z","ProcessId":33912,"LocalIpAddress":"127.0.0.1:10348","RemoteIpAddress":"::1","$type":"TokenIntrospectionSuccessEvent"}
+2019-06-17 17:32:35.483 +02:00 [INF] Success token introspection. Token active: true, for API name: api1
+2019-06-17 17:32:37.695 +02:00 [DBG] Request path /connect/introspect matched to endpoint type Introspection
+2019-06-17 17:32:37.695 +02:00 [DBG] Endpoint enabled: Introspection, successfully created handler: IdentityServer4.Endpoints.IntrospectionEndpoint
+2019-06-17 17:32:37.695 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.IntrospectionEndpoint for /connect/introspect
+2019-06-17 17:32:37.695 +02:00 [DBG] Starting introspection request.
+2019-06-17 17:32:37.695 +02:00 [DBG] Start parsing Basic Authentication secret
+2019-06-17 17:32:37.695 +02:00 [DBG] Start parsing for secret in post body
+2019-06-17 17:32:37.696 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2019-06-17 17:32:37.696 +02:00 [DBG] Secret id found: api1
+2019-06-17 17:32:37.698 +02:00 [DBG] Found api1 API resource in database
+2019-06-17 17:32:37.698 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-06-17 17:32:37.698 +02:00 [DBG] API resource validation success
+2019-06-17 17:32:37.698 +02:00 [INF] {"ApiName":"api1","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"API Authentication Success","EventType":"Success","Id":1020,"Message":null,"ActivityId":"0HLNJ73S7DHS6:00000004","TimeStamp":"2019-06-17T15:32:37.0000000Z","ProcessId":33912,"LocalIpAddress":"127.0.0.1:10348","RemoteIpAddress":"::1","$type":"ApiAuthenticationSuccessEvent"}
+2019-06-17 17:32:37.698 +02:00 [DBG] Introspection request validation started.
+2019-06-17 17:32:37.699 +02:00 [DBG] c9aBF5QaDNq3x26NTECn0BMU7ajZtNjPt8+jFPwEtzM= found in database: true
+2019-06-17 17:32:37.703 +02:00 [DBG] ro.client found in database: true
+2019-06-17 17:32:37.703 +02:00 [DBG] client configuration validation for client ro.client succeeded.
+2019-06-17 17:32:37.706 +02:00 [DBG] ro.client found in database: true
+2019-06-17 17:32:37.706 +02:00 [DBG] client configuration validation for client ro.client succeeded.
+2019-06-17 17:32:37.710 +02:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2019-06-17 17:32:37.710 +02:00 [DBG] Token validation success
+{"ClientId":null,"ClientName":null,"ValidateLifetime":true,"AccessTokenType":"Reference","ExpectedScope":null,"TokenHandle":"d9e4851228f8cc7e5f26f428da75ab7ca54bb2621cb987756dfaa7bd99a223c1","JwtId":null,"Claims":{"iss":"http://localhost:5000","nbf":1560785542,"exp":1560789142,"aud":["http://localhost:5000/resources","api1"],"client_id":"ro.client","scope":["openid","profile","roles","api1","offline_access"],"sub":"d71d9a60-752e-474a-8b70-e4485cc8bca6","auth_time":1560785541,"idp":"local","amr":"pwd"},"$type":"TokenValidationLog"}
+2019-06-17 17:32:37.710 +02:00 [DBG] Introspection request validation successful.
+2019-06-17 17:32:37.710 +02:00 [DBG] Creating introspection response for active token.
+2019-06-17 17:32:37.710 +02:00 [INF] {"ApiName":"api1","IsActive":true,"Token":"****23c1","ClaimTypes":["iss","nbf","exp","aud","client_id","scope","sub","auth_time","idp","amr"],"TokenScopes":["openid","profile","roles","api1","offline_access"],"Category":"Token","Name":"Token Introspection Success","EventType":"Success","Id":2020,"Message":null,"ActivityId":"0HLNJ73S7DHS6:00000004","TimeStamp":"2019-06-17T15:32:37.0000000Z","ProcessId":33912,"LocalIpAddress":"127.0.0.1:10348","RemoteIpAddress":"::1","$type":"TokenIntrospectionSuccessEvent"}
+2019-06-17 17:32:37.710 +02:00 [INF] Success token introspection. Token active: true, for API name: api1
+2019-06-17 17:32:49.260 +02:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-06-17 17:32:49.261 +02:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-06-17 17:32:49.261 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-06-17 17:32:49.261 +02:00 [DBG] Start token request.
+2019-06-17 17:32:49.261 +02:00 [DBG] Start client validation
+2019-06-17 17:32:49.261 +02:00 [DBG] Start parsing Basic Authentication secret
+2019-06-17 17:32:49.261 +02:00 [DBG] Start parsing for secret in post body
+2019-06-17 17:32:49.261 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2019-06-17 17:32:49.261 +02:00 [DBG] Secret id found: ro.client
+2019-06-17 17:32:49.266 +02:00 [DBG] ro.client found in database: true
+2019-06-17 17:32:49.266 +02:00 [DBG] client configuration validation for client ro.client succeeded.
+2019-06-17 17:32:49.266 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-06-17 17:32:49.266 +02:00 [DBG] Client validation success
+2019-06-17 17:32:49.266 +02:00 [INF] {"ClientId":"ro.client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLNJ73S7DHS7:00000005","TimeStamp":"2019-06-17T15:32:49.0000000Z","ProcessId":33912,"LocalIpAddress":"127.0.0.1:10348","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-06-17 17:32:49.266 +02:00 [DBG] Start token request validation
+2019-06-17 17:32:49.266 +02:00 [DBG] Start resource owner password token request validation
+2019-06-17 17:32:49.268 +02:00 [DBG] Found ["openid","profile","roles"] identity scopes in database
+2019-06-17 17:32:49.272 +02:00 [DBG] Found ["api1","api1.write","api1.read"] API scopes in database
+2019-06-17 17:32:49.274 +02:00 [DBG] Found ["openid","profile","roles"] identity scopes in database
+2019-06-17 17:32:49.277 +02:00 [DBG] Found ["api1","api1.write","api1.read"] API scopes in database
+2019-06-17 17:32:49.287 +02:00 [INF] Credentials validated for username: alice
+2019-06-17 17:32:49.287 +02:00 [INF] {"Username":"alice","Provider":null,"ProviderUserId":null,"SubjectId":"9b6ef8a0-7fe9-4fbb-857e-59d71b32f434","DisplayName":"alice","Endpoint":"Token","ClientId":null,"Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLNJ73S7DHS7:00000005","TimeStamp":"2019-06-17T15:32:49.0000000Z","ProcessId":33912,"LocalIpAddress":"127.0.0.1:10348","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2019-06-17 17:32:49.287 +02:00 [INF] {"Username":"alice","Provider":null,"ProviderUserId":null,"SubjectId":"9b6ef8a0-7fe9-4fbb-857e-59d71b32f434","DisplayName":null,"Endpoint":"Token","ClientId":"ro.client","Category":"Authentication","Name":"User Login Success","EventType":"Success","Id":1000,"Message":null,"ActivityId":"0HLNJ73S7DHS7:00000005","TimeStamp":"2019-06-17T15:32:49.0000000Z","ProcessId":33912,"LocalIpAddress":"127.0.0.1:10348","RemoteIpAddress":"::1","$type":"UserLoginSuccessEvent"}
+2019-06-17 17:32:49.287 +02:00 [DBG] Resource owner password token request validation success.
+2019-06-17 17:32:49.288 +02:00 [INF] Token request validation success, {"ClientId":"ro.client","ClientName":null,"GrantType":"password","Scopes":"api1 offline_access openid profile roles","AuthorizationCode":null,"RefreshToken":null,"UserName":"alice","AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"scope":"offline_access openid profile api1 roles","grant_type":"password","client_id":"ro.client","client_secret":"***REDACTED***","username":"alice","password":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-06-17 17:32:49.288 +02:00 [DBG] Getting claims for access token for client: ro.client
+2019-06-17 17:32:49.288 +02:00 [DBG] Getting claims for access token for subject: 9b6ef8a0-7fe9-4fbb-857e-59d71b32f434
+2019-06-17 17:32:49.296 +02:00 [DBG] PT94izIDswoMnk467Yrnn2OVvazUsKSqJoI173+D6+8= not found in database
+2019-06-17 17:32:49.298 +02:00 [DBG] Creating refresh token
+2019-06-17 17:32:49.298 +02:00 [DBG] Setting a sliding lifetime: 1296000
+2019-06-17 17:32:49.299 +02:00 [DBG] GkYZz++5Vp7Ovysq4nPNhnH+oj7tU/6UultGF9bbHWk= not found in database
+2019-06-17 17:32:49.323 +02:00 [INF] {"ClientId":"ro.client","ClientName":null,"RedirectUri":null,"Endpoint":"Token","SubjectId":"9b6ef8a0-7fe9-4fbb-857e-59d71b32f434","Scopes":"openid profile roles api1 offline_access","GrantType":"password","Tokens":[{"TokenType":"refresh_token","TokenValue":"****330e","$type":"Token"},{"TokenType":"access_token","TokenValue":"****87c7","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLNJ73S7DHS7:00000005","TimeStamp":"2019-06-17T15:32:49.0000000Z","ProcessId":33912,"LocalIpAddress":"127.0.0.1:10348","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-06-17 17:32:49.323 +02:00 [DBG] Token request success.
+2019-06-17 17:32:56.500 +02:00 [DBG] Request path /connect/introspect matched to endpoint type Introspection
+2019-06-17 17:32:56.501 +02:00 [DBG] Endpoint enabled: Introspection, successfully created handler: IdentityServer4.Endpoints.IntrospectionEndpoint
+2019-06-17 17:32:56.501 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.IntrospectionEndpoint for /connect/introspect
+2019-06-17 17:32:56.501 +02:00 [DBG] Starting introspection request.
+2019-06-17 17:32:56.501 +02:00 [DBG] Start parsing Basic Authentication secret
+2019-06-17 17:32:56.501 +02:00 [DBG] Start parsing for secret in post body
+2019-06-17 17:32:56.502 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2019-06-17 17:32:56.502 +02:00 [DBG] Secret id found: api1
+2019-06-17 17:32:56.515 +02:00 [DBG] Found api1 API resource in database
+2019-06-17 17:32:56.515 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-06-17 17:32:56.515 +02:00 [DBG] API resource validation success
+2019-06-17 17:32:56.515 +02:00 [INF] {"ApiName":"api1","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"API Authentication Success","EventType":"Success","Id":1020,"Message":null,"ActivityId":"0HLNJ73S7DHS6:00000005","TimeStamp":"2019-06-17T15:32:56.0000000Z","ProcessId":33912,"LocalIpAddress":"127.0.0.1:10348","RemoteIpAddress":"::1","$type":"ApiAuthenticationSuccessEvent"}
+2019-06-17 17:32:56.515 +02:00 [DBG] Introspection request validation started.
+2019-06-17 17:32:56.517 +02:00 [DBG] PT94izIDswoMnk467Yrnn2OVvazUsKSqJoI173+D6+8= found in database: true
+2019-06-17 17:32:56.533 +02:00 [DBG] ro.client found in database: true
+2019-06-17 17:32:56.534 +02:00 [DBG] client configuration validation for client ro.client succeeded.
+2019-06-17 17:32:56.536 +02:00 [DBG] ro.client found in database: true
+2019-06-17 17:32:56.537 +02:00 [DBG] client configuration validation for client ro.client succeeded.
+2019-06-17 17:32:56.540 +02:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2019-06-17 17:32:56.540 +02:00 [DBG] Token validation success
+{"ClientId":null,"ClientName":null,"ValidateLifetime":true,"AccessTokenType":"Reference","ExpectedScope":null,"TokenHandle":"90fa866f00dcefb14aa097c75a091b3c16a44b40d8e4aabf9d670c49019c87c7","JwtId":null,"Claims":{"iss":"http://localhost:5000","nbf":1560785569,"exp":1560789169,"aud":["http://localhost:5000/resources","api1"],"client_id":"ro.client","scope":["openid","profile","roles","api1","offline_access"],"sub":"9b6ef8a0-7fe9-4fbb-857e-59d71b32f434","auth_time":1560785569,"idp":"local","amr":"pwd","role":"admin"},"$type":"TokenValidationLog"}
+2019-06-17 17:32:56.540 +02:00 [DBG] Introspection request validation successful.
+2019-06-17 17:32:56.540 +02:00 [DBG] Creating introspection response for active token.
+2019-06-17 17:32:56.540 +02:00 [INF] {"ApiName":"api1","IsActive":true,"Token":"****87c7","ClaimTypes":["iss","nbf","exp","aud","client_id","scope","sub","auth_time","idp","amr","role"],"TokenScopes":["openid","profile","roles","api1","offline_access"],"Category":"Token","Name":"Token Introspection Success","EventType":"Success","Id":2020,"Message":null,"ActivityId":"0HLNJ73S7DHS6:00000005","TimeStamp":"2019-06-17T15:32:56.0000000Z","ProcessId":33912,"LocalIpAddress":"127.0.0.1:10348","RemoteIpAddress":"::1","$type":"TokenIntrospectionSuccessEvent"}
+2019-06-17 17:32:56.540 +02:00 [INF] Success token introspection. Token active: true, for API name: api1
+2019-06-17 17:39:56.244 +02:00 [DBG] Request path /connect/introspect matched to endpoint type Introspection
+2019-06-17 17:39:56.244 +02:00 [DBG] Endpoint enabled: Introspection, successfully created handler: IdentityServer4.Endpoints.IntrospectionEndpoint
+2019-06-17 17:39:56.244 +02:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.IntrospectionEndpoint for /connect/introspect
+2019-06-17 17:39:56.244 +02:00 [DBG] Starting introspection request.
+2019-06-17 17:39:56.244 +02:00 [DBG] Start parsing Basic Authentication secret
+2019-06-17 17:39:56.244 +02:00 [DBG] Start parsing for secret in post body
+2019-06-17 17:39:56.245 +02:00 [DBG] Parser found secret: PostBodySecretParser
+2019-06-17 17:39:56.245 +02:00 [DBG] Secret id found: api1
+2019-06-17 17:39:56.398 +02:00 [DBG] Found api1 API resource in database
+2019-06-17 17:39:56.398 +02:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-06-17 17:39:56.398 +02:00 [DBG] API resource validation success
+2019-06-17 17:39:56.399 +02:00 [INF] {"ApiName":"api1","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"API Authentication Success","EventType":"Success","Id":1020,"Message":null,"ActivityId":"0HLNJ73S7DHS8:00000001","TimeStamp":"2019-06-17T15:39:56.0000000Z","ProcessId":33912,"LocalIpAddress":"127.0.0.1:10348","RemoteIpAddress":"::1","$type":"ApiAuthenticationSuccessEvent"}
+2019-06-17 17:39:56.399 +02:00 [DBG] Introspection request validation started.
+2019-06-17 17:39:56.402 +02:00 [DBG] PT94izIDswoMnk467Yrnn2OVvazUsKSqJoI173+D6+8= found in database: true
+2019-06-17 17:39:56.424 +02:00 [DBG] ro.client found in database: true
+2019-06-17 17:39:56.424 +02:00 [DBG] client configuration validation for client ro.client succeeded.
+2019-06-17 17:39:56.428 +02:00 [DBG] ro.client found in database: true
+2019-06-17 17:39:56.428 +02:00 [DBG] client configuration validation for client ro.client succeeded.
+2019-06-17 17:39:56.437 +02:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2019-06-17 17:39:56.437 +02:00 [DBG] Token validation success
+{"ClientId":null,"ClientName":null,"ValidateLifetime":true,"AccessTokenType":"Reference","ExpectedScope":null,"TokenHandle":"90fa866f00dcefb14aa097c75a091b3c16a44b40d8e4aabf9d670c49019c87c7","JwtId":null,"Claims":{"iss":"http://localhost:5000","nbf":1560785569,"exp":1560789169,"aud":["http://localhost:5000/resources","api1"],"client_id":"ro.client","scope":["openid","profile","roles","api1","offline_access"],"sub":"9b6ef8a0-7fe9-4fbb-857e-59d71b32f434","auth_time":1560785569,"idp":"local","amr":"pwd","role":"admin"},"$type":"TokenValidationLog"}
+2019-06-17 17:39:56.437 +02:00 [DBG] Introspection request validation successful.
+2019-06-17 17:39:56.437 +02:00 [DBG] Creating introspection response for active token.
+2019-06-17 17:39:56.437 +02:00 [INF] {"ApiName":"api1","IsActive":true,"Token":"****87c7","ClaimTypes":["iss","nbf","exp","aud","client_id","scope","sub","auth_time","idp","amr","role"],"TokenScopes":["openid","profile","roles","api1","offline_access"],"Category":"Token","Name":"Token Introspection Success","EventType":"Success","Id":2020,"Message":null,"ActivityId":"0HLNJ73S7DHS8:00000001","TimeStamp":"2019-06-17T15:39:56.0000000Z","ProcessId":33912,"LocalIpAddress":"127.0.0.1:10348","RemoteIpAddress":"::1","$type":"TokenIntrospectionSuccessEvent"}
+2019-06-17 17:39:56.437 +02:00 [INF] Success token introspection. Token active: true, for API name: api1
